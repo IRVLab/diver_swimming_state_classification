@@ -1,0 +1,127 @@
+===========================================
+###          MODEL: tsf        ###
+###    START_TIME: 2024-08-20 00:21:02.112087    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'tsf', 'num_trees': 500}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 56.05%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: tsf        ###
+###    START_TIME: 2024-08-20 00:23:47.984958    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'tsf', 'num_trees': 500}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 55.29%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: tsf        ###
+###    START_TIME: 2024-08-20 00:26:27.528498    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'tsf', 'num_trees': 500}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 54.99%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: tsf        ###
+###    START_TIME: 2024-08-20 00:29:06.896977    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'tsf', 'num_trees': 500}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 54.99%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: tsf        ###
+###    START_TIME: 2024-08-20 14:21:30.298497    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'tsf', 'num_trees': 500}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 56.89%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: tsf        ###
+###    START_TIME: 2024-08-24 21:07:45.148444    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+--> device : {'gpu': 0, 'num_workers': 8}
+--> task : classification
+--> log : True
+--> plots : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'undersample': False, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'part_trans_acc': True, 'part_rot_acc': False, 'standardize': True, 'savgol': False}}
+--> model : {'name': 'tsf', 'num_trees': 500}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 8}.
+======== LOADING DATASET: PoolData ======== 

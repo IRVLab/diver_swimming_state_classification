@@ -1,0 +1,11 @@
+hydra-core
+opencv-python
+memory-profiler
+aeon
+matplotlib
+statsmodels 
+scikit-learn
+tqdm
+pyyaml
+onnx
+onnxruntime-gpu==1.18.0

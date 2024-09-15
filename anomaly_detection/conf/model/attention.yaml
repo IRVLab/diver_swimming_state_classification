@@ -1,0 +1,8 @@
+name: attention
+learnable_pos_enc: false
+d_model: 128
+dropout: 0.1
+feed_forward_dim: 256
+heads: 16
+num_layers: 3
+weights_fp: ""

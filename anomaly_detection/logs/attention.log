@@ -1,0 +1,627 @@
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 00:31:47.250723    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 8, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : imputation
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: imputation.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.565126
+Epoch 1: average loss - 0.544716
+Epoch 2: average loss - 0.564929
+Epoch 3: average loss - 0.509468
+Epoch 4: average loss - 0.526635
+Epoch 5: average loss - 0.499275
+Epoch 6: average loss - 0.485931
+Epoch 7: average loss - 0.486417
+Epoch 8: average loss - 0.502043
+Epoch 9: average loss - 0.512450
+Epoch 10: average loss - 0.514626
+Epoch 11: average loss - 0.488374
+Epoch 12: average loss - 0.482637
+Epoch 13: average loss - 0.470296
+Epoch 14: average loss - 0.467303
+Epoch 15: average loss - 0.485122
+Epoch 16: average loss - 0.485060
+Epoch 17: average loss - 0.490696
+Epoch 18: average loss - 0.461715
+Epoch 19: average loss - 0.474910
+Epoch 20: average loss - 0.472064
+Epoch 21: average loss - 0.459206
+Epoch 22: average loss - 0.444747
+Epoch 23: average loss - 0.473370
+Epoch 24: average loss - 0.459545
+Epoch 25: average loss - 0.463304
+Epoch 26: average loss - 0.454907
+Epoch 27: average loss - 0.468684
+Epoch 28: average loss - 0.443467
+Epoch 29: average loss - 0.459418
+Epoch 30: average loss - 0.460941
+Epoch 31: average loss - 0.452138
+Epoch 32: average loss - 0.466707
+Epoch 33: average loss - 0.455244
+Epoch 34: average loss - 0.443470
+Epoch 35: average loss - 0.451300
+Epoch 36: average loss - 0.447950
+Epoch 37: average loss - 0.458072
+Epoch 38: average loss - 0.430951
+Epoch 39: average loss - 0.446174
+Epoch 40: average loss - 0.473897
+Epoch 41: average loss - 0.452778
+Epoch 42: average loss - 0.459575
+Epoch 43: average loss - 0.447982
+Epoch 44: average loss - 0.455875
+Epoch 45: average loss - 0.447806
+Epoch 46: average loss - 0.469138
+Epoch 47: average loss - 0.435543
+Epoch 48: average loss - 0.418751
+Epoch 49: average loss - 0.439347
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 47.33%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 00:36:28.730450    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 8, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': 'model_weights/BasicMotions/attention_model_weights_imputation.pth'}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 00:37:16.689105    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : imputation
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: imputation.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.579890
+Epoch 1: average loss - 0.537203
+Epoch 2: average loss - 0.533854
+Epoch 3: average loss - 0.545968
+Epoch 4: average loss - 0.521466
+Epoch 5: average loss - 0.530439
+Epoch 6: average loss - 0.527392
+Epoch 7: average loss - 0.523363
+Epoch 8: average loss - 0.511405
+Epoch 9: average loss - 0.511063
+Epoch 10: average loss - 0.497012
+Epoch 11: average loss - 0.517317
+Epoch 12: average loss - 0.505228
+Epoch 13: average loss - 0.525382
+Epoch 14: average loss - 0.490493
+Epoch 15: average loss - 0.485310
+Epoch 16: average loss - 0.505364
+Epoch 17: average loss - 0.471421
+Epoch 18: average loss - 0.490199
+Epoch 19: average loss - 0.476472
+Epoch 20: average loss - 0.482908
+Epoch 21: average loss - 0.470987
+Epoch 22: average loss - 0.493582
+Epoch 23: average loss - 0.467348
+Epoch 24: average loss - 0.485286
+Epoch 25: average loss - 0.480937
+Epoch 26: average loss - 0.477272
+Epoch 27: average loss - 0.478993
+Epoch 28: average loss - 0.475934
+Epoch 29: average loss - 0.487452
+Epoch 30: average loss - 0.477896
+Epoch 31: average loss - 0.457576
+Epoch 32: average loss - 0.483646
+Epoch 33: average loss - 0.475657
+Epoch 34: average loss - 0.461352
+Epoch 35: average loss - 0.457431
+Epoch 36: average loss - 0.464713
+Epoch 37: average loss - 0.466582
+Epoch 38: average loss - 0.448172
+Epoch 39: average loss - 0.470659
+Epoch 40: average loss - 0.460149
+Epoch 41: average loss - 0.474697
+Epoch 42: average loss - 0.466248
+Epoch 43: average loss - 0.465183
+Epoch 44: average loss - 0.466954
+Epoch 45: average loss - 0.442100
+Epoch 46: average loss - 0.463444
+Epoch 47: average loss - 0.479742
+Epoch 48: average loss - 0.455579
+Epoch 49: average loss - 0.449164
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 46.52%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 00:40:59.448410    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': 'model_weights/ChestMntdAcl/attention_model_weights_imputation.pth'}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 00:41:44.717015    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : imputation
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: imputation.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.610475
+Epoch 1: average loss - 0.551297
+Epoch 2: average loss - 0.543822
+Epoch 3: average loss - 0.535925
+Epoch 4: average loss - 0.519872
+Epoch 5: average loss - 0.506541
+Epoch 6: average loss - 0.523130
+Epoch 7: average loss - 0.495882
+Epoch 8: average loss - 0.492987
+Epoch 9: average loss - 0.499195
+Epoch 10: average loss - 0.507495
+Epoch 11: average loss - 0.490862
+Epoch 12: average loss - 0.504016
+Epoch 13: average loss - 0.508751
+Epoch 14: average loss - 0.470689
+Epoch 15: average loss - 0.502412
+Epoch 16: average loss - 0.485969
+Epoch 17: average loss - 0.492528
+Epoch 18: average loss - 0.462975
+Epoch 19: average loss - 0.501032
+Epoch 20: average loss - 0.479728
+Epoch 21: average loss - 0.462186
+Epoch 22: average loss - 0.470917
+Epoch 23: average loss - 0.472495
+Epoch 24: average loss - 0.470714
+Epoch 25: average loss - 0.480853
+Epoch 26: average loss - 0.464018
+Epoch 27: average loss - 0.470364
+Epoch 28: average loss - 0.463344
+Epoch 29: average loss - 0.473525
+Epoch 30: average loss - 0.450387
+Epoch 31: average loss - 0.487171
+Epoch 32: average loss - 0.473582
+Epoch 33: average loss - 0.441661
+Epoch 34: average loss - 0.465358
+Epoch 35: average loss - 0.462044
+Epoch 36: average loss - 0.467580
+Epoch 37: average loss - 0.484549
+Epoch 38: average loss - 0.452394
+Epoch 39: average loss - 0.470185
+Epoch 40: average loss - 0.470347
+Epoch 41: average loss - 0.450290
+Epoch 42: average loss - 0.454849
+Epoch 43: average loss - 0.454245
+Epoch 44: average loss - 0.459513
+Epoch 45: average loss - 0.469978
+Epoch 46: average loss - 0.462888
+Epoch 47: average loss - 0.462136
+Epoch 48: average loss - 0.454788
+Epoch 49: average loss - 0.461760
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 46.92%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 00:45:40.619406    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': 'model_weights/Epilepsy/attention_model_weights_imputation.pth'}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 00:46:27.006522    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : imputation
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: imputation.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.572666
+Epoch 1: average loss - 0.564438
+Epoch 2: average loss - 0.546270
+Epoch 3: average loss - 0.531434
+Epoch 4: average loss - 0.544401
+Epoch 5: average loss - 0.543377
+Epoch 6: average loss - 0.525513
+Epoch 7: average loss - 0.525665
+Epoch 8: average loss - 0.517746
+Epoch 9: average loss - 0.522374
+Epoch 10: average loss - 0.491720
+Epoch 11: average loss - 0.517456
+Epoch 12: average loss - 0.502749
+Epoch 13: average loss - 0.487806
+Epoch 14: average loss - 0.466246
+Epoch 15: average loss - 0.522000
+Epoch 16: average loss - 0.478218
+Epoch 17: average loss - 0.493781
+Epoch 18: average loss - 0.497369
+Epoch 19: average loss - 0.512734
+Epoch 20: average loss - 0.502543
+Epoch 21: average loss - 0.489204
+Epoch 22: average loss - 0.494285
+Epoch 23: average loss - 0.495608
+Epoch 24: average loss - 0.503986
+Epoch 25: average loss - 0.509238
+Epoch 26: average loss - 0.493423
+Epoch 27: average loss - 0.474610
+Epoch 28: average loss - 0.479916
+Epoch 29: average loss - 0.473127
+Epoch 30: average loss - 0.463062
+Epoch 31: average loss - 0.507218
+Epoch 32: average loss - 0.480882
+Epoch 33: average loss - 0.474919
+Epoch 34: average loss - 0.472967
+Epoch 35: average loss - 0.484832
+Epoch 36: average loss - 0.465878
+Epoch 37: average loss - 0.471756
+Epoch 38: average loss - 0.486179
+Epoch 39: average loss - 0.468868
+Epoch 40: average loss - 0.471006
+Epoch 41: average loss - 0.461036
+Epoch 42: average loss - 0.477986
+Epoch 43: average loss - 0.480601
+Epoch 44: average loss - 0.503951
+Epoch 45: average loss - 0.458650
+Epoch 46: average loss - 0.481816
+Epoch 47: average loss - 0.487393
+Epoch 48: average loss - 0.462838
+Epoch 49: average loss - 0.489450
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 48.64%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 00:50:07.053739    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': 'model_weights/WalkingSittingStanding/attention_model_weights_imputation.pth'}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 14:24:16.125380    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 8, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.657799
+Epoch 1: average loss - 0.632714
+Epoch 2: average loss - 0.611451
+Epoch 3: average loss - 0.608612
+Epoch 4: average loss - 0.597171
+Epoch 5: average loss - 0.595188
+Epoch 6: average loss - 0.597496
+Epoch 7: average loss - 0.583016
+Epoch 8: average loss - 0.591988
+Epoch 9: average loss - 0.586787
+Epoch 10: average loss - 0.578237
+Epoch 11: average loss - 0.562550
+Epoch 12: average loss - 0.555876
+Epoch 13: average loss - 0.553847
+Epoch 14: average loss - 0.554584
+Epoch 15: average loss - 0.538299
+Epoch 16: average loss - 0.542786
+Epoch 17: average loss - 0.533893
+Epoch 18: average loss - 0.532539
+Epoch 19: average loss - 0.521908
+Epoch 20: average loss - 0.515871
+Epoch 21: average loss - 0.520043
+Epoch 22: average loss - 0.514559
+Epoch 23: average loss - 0.516465
+Epoch 24: average loss - 0.514801
+Epoch 25: average loss - 0.513608
+Epoch 26: average loss - 0.512731
+Epoch 27: average loss - 0.506284
+Epoch 28: average loss - 0.507683
+Epoch 29: average loss - 0.499674
+Epoch 30: average loss - 0.499310
+Epoch 31: average loss - 0.498754
+Epoch 32: average loss - 0.492563
+Epoch 33: average loss - 0.494797
+Epoch 34: average loss - 0.497925
+Epoch 35: average loss - 0.494754
+Epoch 36: average loss - 0.489211
+Epoch 37: average loss - 0.492959
+Epoch 38: average loss - 0.502056
+Epoch 39: average loss - 0.489857
+Epoch 40: average loss - 0.485825
+Epoch 41: average loss - 0.488808
+Epoch 42: average loss - 0.498570
+Epoch 43: average loss - 0.496063
+Epoch 44: average loss - 0.485580
+Epoch 45: average loss - 0.486024
+Epoch 46: average loss - 0.483183
+Epoch 47: average loss - 0.493273
+Epoch 48: average loss - 0.488519
+Epoch 49: average loss - 0.479526
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 60.40%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 14:28:39.411496    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.668438
+Epoch 1: average loss - 0.642275
+Epoch 2: average loss - 0.625113
+Epoch 3: average loss - 0.611679
+Epoch 4: average loss - 0.604933
+Epoch 5: average loss - 0.600768
+Epoch 6: average loss - 0.601486
+Epoch 7: average loss - 0.594247
+Epoch 8: average loss - 0.591464
+Epoch 9: average loss - 0.586269
+Epoch 10: average loss - 0.582670
+Epoch 11: average loss - 0.575154
+Epoch 12: average loss - 0.574773
+Epoch 13: average loss - 0.566061
+Epoch 14: average loss - 0.564287
+Epoch 15: average loss - 0.556749
+Epoch 16: average loss - 0.551940
+Epoch 17: average loss - 0.557326
+Epoch 18: average loss - 0.544493
+Epoch 19: average loss - 0.541674
+Epoch 20: average loss - 0.532411
+Epoch 21: average loss - 0.532952
+Epoch 22: average loss - 0.527488
+Epoch 23: average loss - 0.517300
+Epoch 24: average loss - 0.514407
+Epoch 25: average loss - 0.510509
+Epoch 26: average loss - 0.506533
+Epoch 27: average loss - 0.510407
+Epoch 28: average loss - 0.502314
+Epoch 29: average loss - 0.501250
+Epoch 30: average loss - 0.493740
+Epoch 31: average loss - 0.489647
+Epoch 32: average loss - 0.490649
+Epoch 33: average loss - 0.486683
+Epoch 34: average loss - 0.484678
+Epoch 35: average loss - 0.487012
+Epoch 36: average loss - 0.480008
+Epoch 37: average loss - 0.471635
+Epoch 38: average loss - 0.475062
+Epoch 39: average loss - 0.476480
+Epoch 40: average loss - 0.486992
+Epoch 41: average loss - 0.470243
+Epoch 42: average loss - 0.464192
+Epoch 43: average loss - 0.476753
+Epoch 44: average loss - 0.463627
+Epoch 45: average loss - 0.458135
+Epoch 46: average loss - 0.458192
+Epoch 47: average loss - 0.456897
+Epoch 48: average loss - 0.456254
+Epoch 49: average loss - 0.456903
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 66.34%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-20 14:32:32.040995    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 50, 'learning_rate': 1e-05}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.619714
+Epoch 1: average loss - 0.602121
+Epoch 2: average loss - 0.589577
+Epoch 3: average loss - 0.582091
+Epoch 4: average loss - 0.576043
+Epoch 5: average loss - 0.570878
+Epoch 6: average loss - 0.562934
+Epoch 7: average loss - 0.559323
+Epoch 8: average loss - 0.555172
+Epoch 9: average loss - 0.553423
+Epoch 10: average loss - 0.546852
+Epoch 11: average loss - 0.542536
+Epoch 12: average loss - 0.540316
+Epoch 13: average loss - 0.536603
+Epoch 14: average loss - 0.534779
+Epoch 15: average loss - 0.529462
+Epoch 16: average loss - 0.528854
+Epoch 17: average loss - 0.528513
+Epoch 18: average loss - 0.522438
+Epoch 19: average loss - 0.518865
+Epoch 20: average loss - 0.517303
+Epoch 21: average loss - 0.516460
+Epoch 22: average loss - 0.511974
+Epoch 23: average loss - 0.511774
+Epoch 24: average loss - 0.508481
+Epoch 25: average loss - 0.506939
+Epoch 26: average loss - 0.504230
+Epoch 27: average loss - 0.507917
+Epoch 28: average loss - 0.502635
+Epoch 29: average loss - 0.502785
+Epoch 30: average loss - 0.501318
+Epoch 31: average loss - 0.499009
+Epoch 32: average loss - 0.495504
+Epoch 33: average loss - 0.497238
+Epoch 34: average loss - 0.492339
+Epoch 35: average loss - 0.494487
+Epoch 36: average loss - 0.492304
+Epoch 37: average loss - 0.492281
+Epoch 38: average loss - 0.490753
+Epoch 39: average loss - 0.492382
+Epoch 40: average loss - 0.487696
+Epoch 41: average loss - 0.489443
+Epoch 42: average loss - 0.486826
+Epoch 43: average loss - 0.486097
+Epoch 44: average loss - 0.487154
+Epoch 45: average loss - 0.484421
+Epoch 46: average loss - 0.484762
+Epoch 47: average loss - 0.484033
+Epoch 48: average loss - 0.478564
+Epoch 49: average loss - 0.483650
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 60.09%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-24 21:07:48.833213    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 8, 'num_epochs': 50, 'learning_rate': 1e-05, 'weight_decay': 0.0001}
+--> device : {'gpu': 0, 'num_workers': 8}
+--> task : classification
+--> log : True
+--> plots : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'undersample': False, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'part_trans_acc': True, 'part_rot_acc': False, 'standardize': True, 'savgol': False}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 8}.
+======== LOADING DATASET: PoolData ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-24 21:07:52.473801    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 50, 'learning_rate': 1e-05, 'weight_decay': 0.0001}
+--> device : {'gpu': 0, 'num_workers': 8}
+--> task : classification
+--> log : True
+--> plots : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'undersample': False, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'part_trans_acc': True, 'part_rot_acc': False, 'standardize': True, 'savgol': False}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 8}.
+======== LOADING DATASET: PoolData ======== 
+===========================================
+###          MODEL: attention        ###
+###    START_TIME: 2024-08-24 21:07:56.119173    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 50, 'learning_rate': 1e-05, 'weight_decay': 0.0001}
+--> device : {'gpu': 0, 'num_workers': 8}
+--> task : classification
+--> log : True
+--> plots : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'undersample': False, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'part_trans_acc': True, 'part_rot_acc': False, 'standardize': True, 'savgol': False}}
+--> model : {'name': 'attention', 'learnable_pos_enc': False, 'd_model': 128, 'dropout': 0.1, 'feed_forward_dim': 256, 'heads': 16, 'num_layers': 3, 'weights_fp': ''}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 8}.
+======== LOADING DATASET: PoolData ======== 

@@ -1,0 +1,14 @@
+name: PoolData
+train_data_path: ./output/train
+test_data_path: ./output/test
+sample_frequency: 10
+num_classes: 2
+num_features: 36
+undersample: False
+preproc:
+  window_size: 5
+  window_overlap: 0.95
+  part_trans_acc: True  # if True, add 33 to num_features
+  part_rot_acc: False  # if True, add 24 to num_features
+  standardize: True
+  savgol: False

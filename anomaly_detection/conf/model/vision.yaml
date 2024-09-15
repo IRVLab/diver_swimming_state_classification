@@ -1,0 +1,4 @@
+name: vision
+backbone: dinov2_vits14  # for now only dinov2_vits14 and resnet18 are supported
+hidden_dim: 32
+dim_ff: 512

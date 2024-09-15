@@ -1,0 +1,226 @@
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-20 00:07:55.537759    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 8, 'num_epochs': 3, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.635485
+Epoch 1: average loss - 0.493886
+Epoch 2: average loss - 0.359267
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 59.25%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-20 00:09:12.058320    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 3, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.625492
+Epoch 1: average loss - 0.455582
+Epoch 2: average loss - 0.345075
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 62.91%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-20 00:10:23.904791    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 3, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.632881
+Epoch 1: average loss - 0.512827
+Epoch 2: average loss - 0.308197
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 63.37%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-20 00:11:26.658868    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 3, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.653639
+Epoch 1: average loss - 0.625676
+Epoch 2: average loss - 0.468785
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 55.60%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-20 14:09:30.445062    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 8, 'num_epochs': 3, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.605174
+Epoch 1: average loss - 0.430405
+Epoch 2: average loss - 0.451019
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 56.21%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-20 14:11:01.256523    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 3, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.482701
+Epoch 1: average loss - 0.381611
+Epoch 2: average loss - 0.566731
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 54.00%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-20 14:12:20.142867    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 3, 'learning_rate': 0.001}
+--> device : {'gpu': 0, 'num_workers': 0}
+--> task : classification
+--> log : True
+--> plots : True
+--> save : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'include_2d': False, 'include_3d': False, 'standardize': True, 'savgol': True}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 0}.
+======== LOADING DATASET: PoolData ======== 
+======== TRAINING MODEL ======== 
+Epoch 0: average loss - 0.599355
+Epoch 1: average loss - 0.567278
+Epoch 2: average loss - 0.381717
+======== TESTING MODEL ======== 
+FINAL MODEL ACCURACY: 66.26%
+======== SAVING MODEL ======== 
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-24 21:07:12.235951    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 8, 'num_epochs': 3, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+--> device : {'gpu': 0, 'num_workers': 8}
+--> task : classification
+--> log : True
+--> plots : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'undersample': False, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'part_trans_acc': True, 'part_rot_acc': False, 'standardize': True, 'savgol': False}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 8}.
+======== LOADING DATASET: PoolData ======== 
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-24 21:07:15.887880    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 16, 'num_epochs': 3, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+--> device : {'gpu': 0, 'num_workers': 8}
+--> task : classification
+--> log : True
+--> plots : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'undersample': False, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'part_trans_acc': True, 'part_rot_acc': False, 'standardize': True, 'savgol': False}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 8}.
+======== LOADING DATASET: PoolData ======== 
+===========================================
+###          MODEL: cnn_lw        ###
+###    START_TIME: 2024-08-24 21:07:19.530229    ###
+ loading data. 
+###      Parameters.    ###
+--> path : {'output_path': './weights'}
+--> hyp : {'batch_size': 32, 'num_epochs': 3, 'learning_rate': 0.001, 'weight_decay': 0.0001}
+--> device : {'gpu': 0, 'num_workers': 8}
+--> task : classification
+--> log : True
+--> plots : True
+--> dataset : {'name': 'PoolData', 'train_data_path': './output/train', 'test_data_path': './output/test', 'sample_frequency': 10, 'num_classes': 2, 'num_features': 3, 'undersample': False, 'preproc': {'window_size': 5, 'window_overlap': 0.95, 'part_trans_acc': True, 'part_rot_acc': False, 'standardize': True, 'savgol': False}}
+--> model : {'name': 'cnn_lw', 'hidden_size': 64, 'num_filters': 64}
+======== MODEL CONFIGURATION ======== 
+task: classification.
+device: {'gpu': 0, 'num_workers': 8}.
+======== LOADING DATASET: PoolData ======== 
