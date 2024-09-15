@@ -1,5 +1,6 @@
 *.pth
 *.zip
 *.onnx
-**/__pycache__/*
+__pycache__/*
+*.pyc
 .catkin_workspace
