@@ -1,0 +1,2 @@
+weight_file: tsf_model_weights_classification.zip
+n_trees: 500

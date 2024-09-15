@@ -1,0 +1,6 @@
+weight_file: cnn_dn_model_weights_classification.pth
+input_dim: 33
+time_steps: 50
+num_filters: 32
+hidden_size: 128
+classes: 2

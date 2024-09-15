@@ -1,0 +1,6 @@
+# weight file name ONLY
+weight_file: cnn_model_weights_classification.pth
+input_dim: 33
+time_steps: 50
+num_filters: 64
+classes: 2

@@ -1,0 +1,10 @@
+<launch>
+    <!-- Include first launch file -->
+    <include file="$(find diver_anomaly)/launch/classifier_node_launch.launch" />
+
+    <!-- Include second launch file -->
+    <include file="$(find pose_estimator)/launch/estimator.launch">
+        <!--Define which side of the camera is used (left or right) -->
+        <arg name="side" default="left" /> 
+    </include>
+</launch>

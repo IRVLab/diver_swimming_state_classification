@@ -1,0 +1,8 @@
+# Valid types are , CnnLstmLw, CnnLstmDn, CnnCw, CnnSimple, Tsf, Transformer
+# All other will throw an error
+classifier_name: CnnLstmLw
+sequence_topic: /diver_anomaly_test/sequence
+# Observation means a sequence of data accumulated over N_frames
+n_observations_required: 15
+filter_strength: 6
+image_topic: /loco_cams/left/image_raw

@@ -1,0 +1,14 @@
+# weight file name ONLY
+weight_file: attention_model_weights_classification.pth
+series_len: 50
+input_dim: 33
+dataset_name: "diver_anomaly"
+learnable_pose_enc: False
+d_model: 128
+heads: 8
+classes: 2
+dropout: 0.1
+dim_ff: 256
+num_layers: 3
+task: "classification"
+debug: False

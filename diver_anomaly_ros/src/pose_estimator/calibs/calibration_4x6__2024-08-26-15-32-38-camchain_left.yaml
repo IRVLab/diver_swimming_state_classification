@@ -1,0 +1,8 @@
+cam0:
+  camera_model: pinhole
+  distortion_coeffs: [-0.03163157182145177, 0.019900765767924086, -0.0016215511495039042, -0.0018446881200092713]
+  distortion_model: radtan
+  intrinsics: [450.8041177582731, 451.0187038923511, 326.9993663181481, 232.0474444369976]
+  line_delay: 0.00011703860953918382
+  resolution: [640, 480]
+  rostopic: /loco_cams/left/image_raw

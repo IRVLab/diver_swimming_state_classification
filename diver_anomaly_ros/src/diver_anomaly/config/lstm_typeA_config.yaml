@@ -1,0 +1,5 @@
+weight_file: cnn_lw_model_weights_classification.pth
+input_dim: 33
+num_filters: 64
+hidden_size: 64
+classes: 2

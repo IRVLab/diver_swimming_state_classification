@@ -1,0 +1,11 @@
+<launch>
+    <node name="classifier_node" pkg="diver_anomaly" type="classifier_node.py" output="screen"/>
+    <arg name="record_data" default="true" />
+    <arg name="dir" default="/mnt/data/2024_09_05_Pool_Trial_PostProcess/diver_anomaly_post_process" />
+        <node pkg="rosbag" type="record" name="anomaly_record"
+        args="record -o $(arg dir) /loco_cams/left/image_raw
+                                   /pose/pose_2d_vis_topic
+                                   /pose/pose_3d_vis_topic
+                                   /diver_anomaly/anomaly_img" 
+        if="$(arg record_data)" />    
+</launch>

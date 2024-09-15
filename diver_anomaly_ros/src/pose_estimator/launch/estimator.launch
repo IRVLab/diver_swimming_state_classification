@@ -1,0 +1,27 @@
+<launch>
+    <!-- Define which side of the camera is used (left or right) -->
+    <arg name="side" default="left" /> 
+
+    <!-- Define parameters -->
+    <param name="estimator_weight_path" value="$(find pose_estimator)/weights/yolov8_v5.onnx" />
+    <param name="liftor_weight_path" value="$(find pose_estimator)/weights/videopose.onnx" />
+
+    <param name="calib_left_file_path" value="$(find pose_estimator)/calibs/just_in_case.yaml" />
+    <param name="calib_right_file_path" value="$(find pose_estimator)/calibs/camera_front_right.yaml" />
+
+    <param name="display_pose_2d" value="true" />
+    <param name="display_pose_3d" value="true" />
+
+    <param name="window_size" value="5" />
+    <param name="sample_frequency" value="10" />
+
+    <param name="camera_side" value="$(arg side)" />
+
+    <!-- Launch a node with parameters -->
+    <node name="pose_estimator_node" pkg="pose_estimator" type="pose_estimator_node" output="screen">
+        <!-- If AQUA -->
+        <!--<remap from="/image_topic" to="/camera_front_$(arg side)/image_raw" />-->
+        <remap from="/image_topic" to="/loco_cams/left/image_raw" />
+        <remap from="/sequence_topic" to="/diver_anomaly_test/sequence" />
+    </node>
+</launch>
